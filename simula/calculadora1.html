@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>homer</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://morrisjs.github.io/morris.js/css/morris.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="">
+    <header class="navbar-fixed-top">
+      <div class="row">
+        <div class="container-fluid dark-nav">
+          <div class="pull-left">
+            <div class="pull-left logo text-center">
+              <div href="#" class="profile">
+                <img src="/img/avatar.svg">
+                
+              </div>
+              
+            </div>
+            
+            <a href="#" class="logo">
+              <img src="/img/Logo.png">
+            </a>
+          
+          </div>
+          
+          <div class="pull-right">
+            <div class="marr20">
+              <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown task">
+                  
+                <li class="inflogin" >
+                  <div> Olá Cliente A <p>Site: iFactory</p> Status: Logado
+            
+                </div>
+                
+                </li><!-- /.dropdown -->
+                
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="wrap">
+      <div class="side-menu">
+        <nav class="navbar navbar-def" role="navigation">
+          <div class="navbar-header">
+            
+
+          </div><!-- Main Menu -->
+          <div class="side-menu-container">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="/index/index.html"><span class="glyphicon glyphicon-th-large"></span> Dashboard</a>
+              </li>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-arrow-down"></span> Download</a>
+              </li>
+      
+              <li>
+                <a href="/simula/index.html"><span class="glyphicon glyphicon-cog"></span> Simulaçao</a>
+              </li>
+
+              <li>
+                <a href="/index.html"><span class="glyphicon glyphicon-log-out"></span>Sair</a>
+              </li>
+              
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </nav>
+      </div><!-- Main Content -->
+      <div class="container-fluid">
+        <div class="side-body">
+          <div class="page-title-box">
+            <h3 class="page-title pull-left">Estimativas com base em produção mensal</h3>
+            <ol class="breadcrumb pull-right">
+              <li>
+                <a href="#">home</a>
+              </li>
+              <li class="active">simulação</li>
+            </ol>
+            <div class="clearfix"></div>
+          </div>
+          <div class="row">
+            <section class="data">
+              <div>
+               
+                <p>Eficiencia <input type="number" id="efi"> %</p>
+                <p>Boards por painel <input type="number" id="bds"> </p>
+                <p>Update diario <input type="number" id="ud"> Horas</p>
+                <p>Update mensal <input type="number" id="um"> Dias</p>
+                <p>Placas Mês <input type="number" id="plm"></p>
+                <p><b>Cicle time resultante</b>: <span id="resultado"></span>Seg</p>  <!-- resultado = (efi * 0,01 * 3600 * bds * ud * um ) / plm-->
+                <p><b>Placas horas</b>: <span id="ph"> </span> </p> <!-- ph = plm/um-->
+                <p><b>Placas Dias</b>: <span id="pd"> </span> </p>  <!-- pd = plm/ud-->
+                <script src="/simula/calculadora.js" charset="utf-8"></script>
+              </div>
+              <div class="result">
+                
+                <button id="calc">Calcular</button>
+              </div>
+             
+          </section>
+
+          </div>
+       
+
+         
+           <!-- teabela 
+          <div class="row">
+            
+            <div class="col-sm-6">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <i class="fa fa-table fa-fw"></i> Table Details
+                </div>
+                <div class="table-responsive">
+                  <table class="table table-striped" id="example">
+                    <tr>
+                      <th>Heading 1</th>
+                      <th>Heading 2</th>
+                      <th>Heading 3</th>
+                      <th>Heading 4</th>
+                      <th>Heading 5</th>
+                      <th>Heading 6</th>
+                    </tr>
+                    <tr>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>Content</td>
+                    </tr>
+                    <tr>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>content</td>
+                      <td>content</td>
+                      <td>content</td>
+                    </tr>
+                    <tr>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>content</td>
+                      <td>content</td>
+                      <td>content</td>
+                    </tr>
+                    <tr>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>Content</td>
+                      <td>content</td>
+                      <td>content</td>
+                      <td>content</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="side-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js'></script>
+<script src='https://cdn.oesmith.co.uk/morris-0.4.1.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+<script  src="/simula/calculadora.js"></script>
+
+</body>
+</html>

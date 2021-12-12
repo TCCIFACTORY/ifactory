@@ -1,0 +1,24 @@
+
+}
+ /* grid peformace img */
+ .grid > img {
+	width: 40%;
+	padding: 3px;
+}
+
+@media (max-width: 800px) {
+	.grid > img {
+		width: 100%;
+    padding: 13px;
+	}
+}
+
+@media (max-width: 420px) {
+	.grid > img {
+		width: 100%;
+	}
+}
+
+.grid > img.agranda {
+	width: 75%;
+}

@@ -1,0 +1,170 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #7f7e7e;
+  background-color: #3a3a3a;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 35px;
+  font-weight: 300;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.percentage a{
+  color: #f5ab34;
+}
+
+.back {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-top-left-radius:17px;
+  border-top-right-radius:17px;
+  border-bottom-left-radius:17px;
+  border-bottom-right-radius:17px;
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+  text-shadow:inset 0px 1px 0px #263666;
+  background-color:transparent;
+  width: 90px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  
+  }
+  
+.report-statistic-box {
+  float: left;
+  width: 50%;
+  height: 450px;
+  background-color: #272424;
+  border-right: 2px solid #3a3333;
+  text-align: center;
+}
+
+.report-statistic-box .box-header {
+  background-color: #353232;
+  font-weight: 400;
+  font-size: 15px;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.report-statistic-box .box-header span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.report-statistic-box .box-content {
+  position: relative;
+  margin: 20px auto 15px;
+  width: 130px;
+  height: 130px;
+}
+
+.report-statistic-box .box-content .sentTotal {
+  font-size: 46px;
+  font-weight: 400;
+  color: #808bcd;
+  padding-top: 32px;
+}
+
+.report-statistic-box .box-content .percentage {
+  position: absolute;
+  font-size: 28px;
+  top: 34%;
+  left: 31%;
+}
+
+.report-statistic-box .box-content .conversionValue {
+  font-size: 28px;
+  font-weight: 300;
+  color: #f5ab34;
+  padding-top: 46px;
+}
+
+.conversionValue .conversionCurrency {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f5ab34;
+  padding-top: 46px;
+}
+
+.report-statistic-box .delivery-rate {
+  color: #f5ab34;
+}
+
+.report-statistic-box .open-rate {
+  color: #f5ab34;
+}
+
+.report-statistic-box .click-to-open {
+  color: #367e6f;
+}
+
+.report-statistic-box .box-foot {
+  position: relative;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.report-statistic-box .box-foot .box-foot-stats {
+  font-size: 15px;
+}
+
+.report-statistic-box .box-foot .box-foot-left {
+  float: left;
+  text-align: left;
+}
+
+.report-statistic-box .box-foot .box-foot-right {
+  float: right;
+  text-align: right;
+}
+
+.report-statistic-box .box-foot .arrow {
+  display: none;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 1024px) {
+  .report-statistic-box {
+    width: 50%;
+  }
+}
+.grid > img {
+	width: 70%;
+	padding: 3px;
+}
+
+@media (max-width: 800px) {
+	.grid > img {
+		width: 100%;
+    padding: 13px;
+	}
+}
+
+@media (max-width: 420px) {
+	.grid > img {
+		width: 100%;
+	}
+}
+
+.grid > img.agranda {
+	width: 75%;
+}
