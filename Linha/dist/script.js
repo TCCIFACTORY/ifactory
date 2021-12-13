@@ -73,7 +73,7 @@
         '<div class="report-statistic-box">',
         '<div  class="box-header"> Linha A </div>',
         '<div class="box-content delivery-rate">',
-        '<div class="percentage"><a href="/Linha/dist/detalhes/produtoA/linha1.html" style="text-decoration:none" >90%<a/></div>',
+        '<div class="percentage"><a href="https://tccifactory.github.io/ifactory/Linha/dist/detalhes/produtoA/linha1.html" style="text-decoration:none" >90%<a/></div>',
         
         '</div>',
         '<div class="box-foot">',
@@ -89,7 +89,7 @@
         '<div class="report-statistic-box">',
         '<div class="box-header"> Linha B </div>',
         '<div class="box-content open-rate">',
-        '<div class="percentage"><a href = "/Linha/dist/detalhes/produtoB/linha2.html" style="text-decoration:none" >99%<a/></div>',
+        '<div class="percentage"><a href = "https://tccifactory.github.io/ifactory/Linha/dist/detalhes/produtoB/linha2.html" style="text-decoration:none" >99%<a/></div>',
         '</div>',
         '<div class="box-foot">',
         '<span class="arrow arrow-up"></span>',
