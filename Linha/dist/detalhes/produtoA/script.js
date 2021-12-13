@@ -71,7 +71,7 @@
         '<div class="grid">',
 
         
-        '<img src="/img/LinhaA.jpeg"/>',
+        '<img src="https://github.com/TCCIFACTORY/ifactory/blob/main/img/LinhaA.jpeg?raw=true"/>',
         
        '</div>',
         
