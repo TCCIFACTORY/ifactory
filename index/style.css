@@ -309,7 +309,7 @@ table th{
 
 /*-----Media classes-----*/
 
-@media (max-width: 768px){
+@media (max-width: 425px){
   .navbar-right li:nth-child(n){
     display:none;
   }
