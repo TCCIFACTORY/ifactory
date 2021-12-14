@@ -317,8 +317,8 @@ table th{
     display: block;
   }
   .side-menu{
-    margin-left: -150px;
-    z-index: 699;
+    margin-left: -250px;
+    z-index: 899;
   }
   .side-body{
     margin-left: 0;
